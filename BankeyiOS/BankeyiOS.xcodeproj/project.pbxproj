@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9F1C74C02912915600C99C99 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1C74BF2912915600C99C99 /* LoginView.swift */; };
+		E246A79B291E2913003D03CF /* OnboardingCoantainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E246A79A291E2913003D03CF /* OnboardingCoantainerViewController.swift */; };
 		E29C9F9629127BD500774158 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29C9F9529127BD500774158 /* AppDelegate.swift */; };
 		E29C9F9A29127BD500774158 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29C9F9929127BD500774158 /* LoginViewController.swift */; };
 		E29C9F9F29127BD700774158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E29C9F9E29127BD700774158 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		9F1C74BF2912915600C99C99 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E246A79A291E2913003D03CF /* OnboardingCoantainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoantainerViewController.swift; sourceTree = "<group>"; };
 		E29C9F9229127BD500774158 /* BankeyiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankeyiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29C9F9529127BD500774158 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E29C9F9929127BD500774158 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,14 @@
 			name = Login;
 			sourceTree = "<group>";
 		};
+		E246A799291E28F0003D03CF /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				E246A79A291E2913003D03CF /* OnboardingCoantainerViewController.swift */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
 		E29C9F8929127BD500774158 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +83,7 @@
 		E29C9F9429127BD500774158 /* BankeyiOS */ = {
 			isa = PBXGroup;
 			children = (
+				E246A799291E28F0003D03CF /* Onboarding */,
 				9F1C74BE2912910600C99C99 /* Login */,
 				9F1C74BD291290D300C99C99 /* Files */,
 				E29C9F9529127BD500774158 /* AppDelegate.swift */,
@@ -151,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F1C74C02912915600C99C99 /* LoginView.swift in Sources */,
+				E246A79B291E2913003D03CF /* OnboardingCoantainerViewController.swift in Sources */,
 				E29C9F9A29127BD500774158 /* LoginViewController.swift in Sources */,
 				E29C9F9629127BD500774158 /* AppDelegate.swift in Sources */,
 			);
