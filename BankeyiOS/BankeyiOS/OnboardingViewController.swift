@@ -40,7 +40,6 @@ extension OnboardingViewController {
         
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.axis = .vertical
-        stackView.spacing = 30
         
         // Image
         monsterImageView.translatesAutoresizingMaskIntoConstraints = false
